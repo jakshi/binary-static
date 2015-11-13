@@ -44,6 +44,8 @@
             <link rel="stylesheet" href="[%= css_file =%]">
         [% END %]
 
+        <script src="/js/new_relic.js"></script>
+	
         [% INCLUDE global/javascripts.html.tt
             javascript=javascript
         %]
