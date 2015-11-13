@@ -62374,9 +62374,7 @@ var Table = (function(){
 pjax_config_page("profit_table", function(){
     return {
         onLoad: function() {
-            BinarySocket.init({
-                onmessage: Message.process
-            });
+            BinarySocket.init();
             Content.populate();
             ProfitTableWS.init();
         },
@@ -62620,9 +62618,7 @@ var ProfitTableUI = (function(){
 }());;pjax_config_page("statementws", function(){
     return {
         onLoad: function() {
-            BinarySocket.init({
-                onmessage: Message.process
-            });
+            BinarySocket.init();
             Content.populate();
             StatementWS.init();
         },
