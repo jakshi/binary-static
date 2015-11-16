@@ -4,9 +4,6 @@ module.exports = {
             separator: ';',
         },
         files: {
-	    'dist/js/newrelic.js': [
-              'src/javascript/newrelic/newrelic.js'
-	    ],
             'dist/js/binary.js': [
                 'src/javascript/lib/jquery.js', 
                 'src/javascript/lib/highstock/highstock.js', 
