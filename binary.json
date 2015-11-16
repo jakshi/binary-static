@@ -109,6 +109,5 @@
     "src/javascript/binary/static/statement/statement.data.js",
     "src/javascript/binary/static/statement/statement.init.js",
     "src/javascript/binary/static/statement/statement.ui.js",
-    "src/javascript/binary/utility.js",
-    "src/javascript/newrelic/newrelic.js"
+    "src/javascript/binary/utility.js"
 ]
