@@ -26,6 +26,8 @@
 
   %title= stash('website_name') . (stash('title') ? " : ".stash('title'): '')
 
+  %script{:type => "text/javascript", :src => url_for('/js/new_relic.js')}
+
   %link{:href => "https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=latin,vietnamese,cyrillic-ext,latin-ext,cyrillic", :rel => "stylesheet", :type => "text/css"}
 
   %link{:href => url_for("/images/favicons/apple-touch-icon-57x57.png"), :rel => "apple-touch-icon", :sizes => "57x57"}
@@ -53,8 +55,5 @@
   - foreach my $css (css()->files) {
     %link{:rel=>"stylesheet" :href=> $css}
   - }
-
-  %script{:type => "text/javascript",
-	      :src => url_for("/js/new_relic.js")}
 
   = include('layouts/default/javascripts')
