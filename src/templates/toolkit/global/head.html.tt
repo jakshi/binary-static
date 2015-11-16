@@ -20,7 +20,7 @@
         <meta property="og:type" content="website" />
         <meta property="og:image" content="[% request.url_for('images/common/og_image.gif') %]" />
 
-        <script type="text/javascript" src="[% request.url_for('/js/new_relic.js') %]"></script>
+        <script type="text/javascript" src="[% request.url_for('/js/newrelic.js') %]"></script>
 	
         <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=latin,vietnamese,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
 
