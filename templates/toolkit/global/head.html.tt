@@ -44,7 +44,7 @@
             <link rel="stylesheet" href="[%= css_file =%]">
         [% END %]
 
-        <script src="/js/new_relic.js"></script>
+        <script type="text/javascript" src=""[% request.url_for('/js/new_relic.js') %]"></script>
 	
         [% INCLUDE global/javascripts.html.tt
             javascript=javascript
